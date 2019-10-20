@@ -1,0 +1,7 @@
+services:
+  deardiary:
+    build: .
+    image: 172.18.146.241:5000/deardiary
+    ports: ['9999']
+    restart: unless-stopped
+version: '3'

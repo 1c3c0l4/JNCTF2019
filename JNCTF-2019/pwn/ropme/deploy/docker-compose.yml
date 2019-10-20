@@ -1,0 +1,7 @@
+services:
+  randomness:
+    build: .
+    image: 172.18.146.241:5000/ropme
+    ports: ['9999']
+    restart: unless-stopped
+version: '3'
