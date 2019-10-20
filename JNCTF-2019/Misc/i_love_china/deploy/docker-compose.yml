@@ -1,0 +1,7 @@
+services:
+  i_love_china:
+    build: .
+    image: 172.18.146.241:5000/i_love_china
+    ports: ['20000']
+    restart: unless-stopped
+version: '3'
