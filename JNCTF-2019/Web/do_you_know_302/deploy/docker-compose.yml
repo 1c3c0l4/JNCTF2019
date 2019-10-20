@@ -1,0 +1,7 @@
+services:
+  do_you_know_302:
+    build: .
+    image: 172.18.146.241:5000/do_you_know_302
+    ports: ['80']
+    tty: true
+version: '3'

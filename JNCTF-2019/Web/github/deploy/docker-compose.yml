@@ -1,0 +1,7 @@
+services:
+  github:
+    build: .
+    image: 172.18.146.241:5000/github
+    ports: ['80']
+    tty: true
+version: '3'

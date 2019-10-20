@@ -1,0 +1,13 @@
+CREATE DATABASE JNCTF;
+USE JNCTF;
+CREATE TABLE secret(
+flag VARCHAR(60) NULL
+);
+CREATE TABLE member(
+id INT NULL,
+NAME VARCHAR(20) NULL
+);
+INSERT INTO member VALUES(1,"Xiaoming");
+INSERT INTO member VALUES(2,"xiaoli");
+INSERT INTO member VALUES(3,"xiaohong");
+INSERT INTO secret VALUES("flag{zheshiflag}");

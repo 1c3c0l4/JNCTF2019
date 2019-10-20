@@ -1,0 +1,7 @@
+services:
+  press_f_into_the_tank:
+    build: .
+    image: 172.18.146.241:5000/press_f_into_the_tank
+    ports: ['80']
+    tty: true
+version: '3'

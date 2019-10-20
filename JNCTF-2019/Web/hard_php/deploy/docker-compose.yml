@@ -1,0 +1,7 @@
+services:
+  hard_php:
+    build: .
+    image: 172.18.146.241:5000/hard_php
+    ports: ['80']
+    tty: true
+version: '3'

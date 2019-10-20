@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /f1ag.php
+Disallow: /1.jpg
+Disallow: /index.html

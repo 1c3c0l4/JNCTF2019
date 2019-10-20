@@ -1,0 +1,7 @@
+services:
+  easy_upload:
+    build: .
+    image: 172.18.146.241:5000/easy_upload
+    ports: ['80']
+    tty: true
+version: '3'

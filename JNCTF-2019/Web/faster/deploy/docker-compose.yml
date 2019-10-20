@@ -1,0 +1,7 @@
+services:
+  faster:
+    build: .
+    image: 172.18.146.241:5000/faster
+    ports: ['80']
+    tty: true
+version: '3'
