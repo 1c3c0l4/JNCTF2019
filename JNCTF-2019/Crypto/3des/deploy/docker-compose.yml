@@ -1,0 +1,7 @@
+services:
+  3des:
+    build: .
+    image: 172.18.146.241:5000/3des
+    ports: ['80']
+    tty: true
+version: '3'

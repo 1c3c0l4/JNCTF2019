@@ -1,0 +1,426 @@
+JNCTF-2019:
+    _meta_:
+      - max_score: 500
+      - name: "JNCTF-2019"
+    Checkin: 
+      - 签到: 
+        - score: 10
+        - flag: 
+          - JNCTF{We1Come_To_JnCTF2019}
+        - attachment: NULL
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "查看首页JNCTF2019比赛通知"
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+    Web:
+      - press_f_into_the_tank:
+        - score: 50
+        - flag:
+          - JNCTF{FfFfFfFf_enter_the_tank}
+        - pushflag: NULL
+        - env: ./Web/press_f_into_the_tank/deploy/docker-compose.yml
+        - attachment: NULL
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "按下键盘进入坦克"
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - robots:
+        - score: 50
+        - flag:
+          - random
+        - pushflag: ./Web/robots/deploy/pushflag.sh
+        - env: ./Web/robots/deploy/docker-compose.yml
+        - attachment: NULL
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "欢迎来到机器人世界"
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - do_you_know_302:
+        - score: 100
+        - flag:
+          - random
+        - pushflag: ./Web/do_you_know_302/deploy/pushflag.sh
+        - env: ./Web/do_you_know_302/deploy/docker-compose.yml
+        - attachment: NULL
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "302_is_interesting"
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - faster:
+        - score: 150
+        - flag:
+          - random
+        - pushflag: ./Web/faster/deploy/pushflag.sh
+        - env: ./Web/faster/deploy/docker-compose.yml
+        - attachment: NULL
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "同学你还是太慢了"
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - easy_php:
+        - score: 150
+        - flag:
+          - random
+        - pushflag: ./Web/easy_php/deploy/pushflag.sh
+        - env: ./Web/easy_php/deploy/docker-compose.yml
+        - attachment: NULL
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "还不快来读读世界上最好的语言?"
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - easy_upload:
+        - score: 150
+        - flag:
+          - random
+        - pushflag: ./Web/easy_upload/deploy/pushflag.sh
+        - env: ./Web/easy_upload/deploy/docker-compose.yml
+        - attachment: NULL
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "江南小安在学习了文件上传之后,见到上传点就忍不住试一试，恰好今天他又遇到了一个上传的地方，，，小安能顺利拿下这台服务器吗"
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - github:
+        - score: 200
+        - flag:
+          - random
+        - pushflag: ./Web/github/deploy/pushflag.sh
+        - env: ./Web/github/deploy/docker-compose.yml
+        - attachment: NULL
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "欢迎来到全球最大交友网站"
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - easy_sql:
+        - score: 300
+        - flag:
+          - random
+        - pushflag: ./Web/easy_sql/deploy/pushflag.sh
+        - env: ./Web/easy_sql/deploy/docker-compose.yml
+        - attachment: NULL
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "我是一个没有感情的查询窗口,除了Yes和No我什么都不知道"
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - hard_php:
+        - score: 300
+        - flag:
+          - random
+        - pushflag: ./Web/hard_php/deploy/pushflag.sh
+        - env: ./Web/hard_php/deploy/docker-compose.yml
+        - attachment: NULL
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "如果你能成功拿到flag,你的男(女)朋友就会相信PHP是世界上最好的语言(逃"
+        - description-en: NULL
+        - origin: NULL
+        - tag: 
+          - Firstblood
+        - hint: NULL
+    Misc:
+      - cool_again:
+        - score: 50
+        - flag: 
+          - JNCTF{Audio_Steganography}
+        - pushflag: NULL
+        - env: NULL
+        - attachment: 
+          - ./Misc/cool_Again/attachment/Cool_Again.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "快来和我一起听歌吧!"
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - steg:
+        - score: 100
+        - flag: JNCTF{image_yes_or_no}
+        - attachment: ./Misc/steg/attachment/China.zip
+        - writeup-cn: ./Misc/steg/wp/wp.md
+        - writeup-en: NULL
+        - description-cn: "大学生王安在假期利用素材做了个纪念70周年的海报，当负责人收到图片的时候蒙了，Are you kidding？这是个图片？？怎么打不开？王安哼哼一笑，事关咱国家的东西能这么轻易给你吗！自己打开吧！"
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - final_zip:
+        - score: 250
+        - flag: 
+          - JNCTF{Philip_Katz_created_zip_in_2000!!}
+        - pushflag: NULL
+        - env: NULL
+        - attachment: ./Misc/final_zip/attachment/final.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "假或真时真亦假，真或假时假亦真,究极压缩包，等你来挑战"
+        - hint: NULL 
+      - alg-Misc:
+        - score: 100
+        - flag: JNCTF{Amazing}
+        - attachment: ./Misc/alg-Misc/attachment/alg.zip
+        - writeup-cn: ./Misc/alg-Misc/wp/wp.md
+        - writeup-en: NULL
+        - description-cn: "往年阅兵仪式的时候，兵哥哥的队列都很整齐，比国外的强得多，不知道今年的会怎么样？毕竟还是70周年呢，会不会有 7 x 7 的矩阵？"
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - easy_ttl:
+        - score: 150
+        - flag: 
+          - JNCTF{TTl_1s_very_useFUl}
+        - pushflag: NULL
+        - env: NULL
+        - attachment: 
+          - ./Misc/easy_ttl/attachment/TTL.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "江南小安一觉醒来，发现自己的电脑被黑掉了，在排查后门的过程中，发现了一个神秘的文件……"
+      - happy-misc:
+        - score: 200
+        - flag: JNCTF{celebrate-tiananmen-satellite}
+        - attachment: ./Misc/happy-misc/attachments-up/1949.zip
+        - writeup-cn: ./Misc/happy-misc/wp/wp.md
+        - writeup-en: NULL
+        - description-cn: "从新中国成立至今，我们的国家走过了很多的艰难险阻，才有了今天的新中国！在新中国成立70周年之际，flag 被一股神秘力量破坏，变成了三份碎片散落在历史的长河中，现在需要一个勇士，一个社会主义的接班人去中国发展的长河中去寻找，并按照历史发展的顺序去拼接才能获得最终的flag。"
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - i_love_china:
+        - score: 200
+        - flag: 
+          - random
+        - pushflag: ./Misc/i_love_china/deploy/pushflag.sh
+        - env: ./Misc/i_love_china/deploy/docker-compose.yml
+        - attachment: NULL
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "我打字特别慢,但森克特可以帮助我一起输入24字真言"
+        - description-en: NULL
+        - origin: NULL
+        - tag: 
+          - Firstblood
+        - hint: NULL
+      - easy_wifi:
+        - score: 100
+        - flag: 
+          - JNCTF{123456789}
+        - pushflag: NULL
+        - env: NULL
+        - attachment: 
+          - ./Misc/easy_wifi/attachment/easy_wifi.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "江南小安终于还是没忍住，打开了kali,对隔壁的WiFi下了手"
+    Crypto:
+      - normal_carser:
+        - score: 50
+        - flag: 
+          - JNCTF{Veni_Vidi_Vici}
+        - pushflag: NULL
+        - env: NULL
+        - attachment: 
+          - ./Crypto/normal_carser/attachment/cipher.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "曾经有一位凯撒大帝，说过一句非常有名的话"
+      - Base-Brothers:
+        - score: 50
+        - flag: JNCTF{1_d0_n07_c6re_7o0}
+        - attachment: ./Crypto/Base-Brothers/attachments/base.txt
+        - writeup-cn: ./Crypto/Base-Brothers/wp/wp.md
+        - writeup-en: NULL
+        - description-cn: "你知道今年阅兵仪式上有多少贝斯手吗？"
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - we_can_see_you:
+        - score: 100
+        - flag: 
+          - JNCTF{Give_Buddha_S0ME_Light@}
+        - pushflag: NULL
+        - env: NULL
+        - attachment: 
+          - ./Crypto/we_can_see_you/attachment/cipher.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "假如给佛三天光明，佛会说……"
+      - one-time:
+        - score: 150
+        - flag: JNCTF{ertyuioio}
+        - attachment: ./Crypto/one-time/attachments/one-time.zip
+        - writeup-cn: ./Crypto/one-time/wp/wp.md
+        - writeup-en: NULL
+        - description-cn: "有一个密码学家为了庆祝新中国成立70周年，专门用英文写了一段话，打算发出去，但是，，又想显得自己上档次，于是就让自己的助理把那段文字加密一下。但是助理有点糊涂，用同一段字符串去加密原来的整个字符串。。他以为很安全了，殊不知，，一次性。。。。。"
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - jjencode:
+        - score: 100
+        - flag: 
+          - JNCTF{D0_y0u_Kn0w_JJENCODE}
+        - pushflag: NULL
+        - env: NULL
+        - attachment: 
+          - ./Crypto/jjencode/attachment/cipher.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "小明在电脑里，发现了一个奇怪的文本"
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - happy_birthday:
+        - score: 200
+        - flag: 
+          - JNCTF{C3lebrate_the_Bir7hday_of_0ur_Motherland}
+        - pushflag: NULL
+        - env: NULL
+        - attachment: 
+          - ./Crypto/happy_birthday/attachment/cipher.zip
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "问就是祖国七十周年生日快乐"
+        - description-en: NULL
+        - origin: NULL
+        - tag: 
+          - Firstblood
+        - hint: NULL
+      - 3des:
+        - score: 150
+        - flag:
+          - JNCTF{22223_3DES_Crypto}
+        - pushflag: NULL
+        - env: ./Crypto/3des/deploy/docker-compose.yml
+        - attachment: NULL
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "小安在最后一秒见到了受害者，并且发现的他留下的凶手信息……"
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+    Reverse: 
+      - flapy_bird:
+        - score: 200
+        - flag:
+          - JNCTF{i_am_a_small_bird}
+        - attachment: ./Reverse/flapy_bird/attachment/flapy_bird.zip
+        - writeup-cn: NULL 
+        - writeup-en: NULL
+        - description-cn: "Once a bird, always a bird. "
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - Diophantus: 
+        - score: 250
+        - flag:
+          - JNCTF{D10ph4n7us_Kn0ws_A11}
+        - attachment: ./Reverse/Diophantus/attachments/Diophantus.zip
+        - writeup-cn: NULL 
+        - writeup-en: NULL
+        - description-cn: "How many equations have you solved before?"
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - Basetoo: 
+        - score: 400
+        - flag: 
+          - JNCTF{I_love_base!}
+        - attachment: ./Reverse/basetoo/attachments/basetoo.exe
+        - writeup-cn: ./Reverse/basetoo/wp/Basetoo.md
+        - writeup-en: NULL
+        - description-cn: "听说之前的Base家族被人做出来了？Base的长老就坐不住了，要不来试试这个？"
+        - description-en: NULL
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL 
+      - LogMeIn:
+        - score: 500
+        - flag: 
+          - JNCTF{H0w_d0_y0u_DO?}
+        - attachment: ./Reverse/LogMeIn/attachments/LogMeIn.apk
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: "其实很简单 其实很自然～\n其实并不难 是你太悲观～\n不想让你为难 你不再需要给我个答案～ \n分开或许是选择 但它也可能是我们的缘分～"
+        - description-en: NULL
+        - origin: NULL
+        - tag: 
+          - Firstblood
+        - hint: NULL 
+    Pwn:
+      - RANDOMNESS:
+        - score: 200
+        - flag:
+          - random
+        - pushflag: ./pwn/randomness/deploy/pushflag.sh
+        - env: ./pwn/randomness/deploy/docker-compose.yml
+        - attachment: ./pwn/randomness/attachment/RANDOMNESS.tar.xz
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: NULL
+        - description-en: "Have you ever seen this code?\nint getRandomNumber() {\n\treturn 4;\n}\nGL&HF!"
+        - origin: NULL
+        - tag: 
+          - Firstblood
+        - hint: NULL
+      - ropme:
+        - score: 400
+        - flag:
+          - random
+        - pushflag: ./pwn/ropme/deploy/pushflag.sh
+        - env: ./pwn/ropme/deploy/docker-compose.yml
+        - attachment: ./pwn/ropme/attachment/ropme.tar.xz
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: NULL
+        - description-en: "easy but meaningful"
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
+      - deardiary:
+        - score: 500
+        - flag:
+          - random
+        - pushflag: ./pwn/deardiary/deploy/pushflag.sh
+        - env: ./pwn/deardiary/deploy/docker-compose.yml
+        - attachment: ./pwn/deardiary/attachments/deardiary.tar.xz
+        - writeup-cn: NULL
+        - writeup-en: NULL
+        - description-cn: NULL
+        - description-en: "Dear diary:\n\nCould you just give me flag?\n"
+        - origin: NULL
+        - tag: NULL
+        - hint: NULL
